@@ -1,0 +1,193 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 0, 5%;
+
+  }
+  .pics1 img{
+    position: absolute;
+    width: 100%;
+    height: 100vl;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  .top{
+    width: 100%;
+    height: 100px;
+    margin: 5px;
+  }
+  .top ul{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    padding: 20px;
+    list-style: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .top li:hover{
+    color: black;
+  }
+  .top li{
+    padding: 10px;
+  }
+  .section1{
+    margin-left: 40px;
+
+  }
+  .section1 h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    color: white;
+  }
+  .section1 h1:hover{
+    color: yellow;
+  }
+  .section1 p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    color: white;
+  }
+  .section1 input{
+    border: 2px;
+    padding: 10px 20px;
+    border-radius: 9px;
+  }
+  .section1 button{
+    border: 2px;
+    padding: 10px 20px;
+    border-radius: 9px;
+    background: linear-gradient(to left,rgb(6, 6, 247), yellow);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+  }
+  .section1 button:hover{
+    color: blue;
+  }
+  .section2{
+    width: 300px;
+    height: 400px;
+    border: 2px;
+    background-color: white;
+    margin-right: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+   
+
+  }
+  .container2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  margin-left: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+  .row1 ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 40px;
+    list-style: none;
+
+  }
+  .row2 ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 18px;
+    list-style: none;
+
+  }
+ 
+ 
+ .top2{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0%;
+ }
+ .top2 p{
+  margin-right: 80px;
+  margin-top: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+ }
+
+ 
+ .top3 h2{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  font-size:30px ;
+  margin-bottom: 0%;
+ }
+ .top3 p{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:12px ;
+  justify-content: center;
+  margin-left: 5px;
+  
+ }
+ .boxa{
+  height: 100px;
+  width: 50px;
+  border: 2px;
+  background: linear-gradient(to left,rgb(6, 6, 247), yellow);
+  border-radius: 10px;
+  
+ }
+ .boxb{
+  height: 100px;
+  width: 50px;
+  border: 2px;
+  background: linear-gradient(to left,rgb(6, 6, 247), yellow);
+  border-radius: 10px;
+  
+ }
+.boxc{
+  height: 100px;
+  width: 50px;
+  border: 2px;
+  background: linear-gradient(to left,rgb(6, 6, 247), yellow);
+  border-radius: 10px;
+
+}
+
+.group{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+ .group h2{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  font-size:20px ;
+  color: white;
+  margin-left: 5px;
+ }
+ .group p{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  font-size:18px ;
+  color: white;
+  margin-left: 5px;
+ }
+ .login{
+  border: 2px;
+  padding: 10px 20px;
+  border-radius: 9px;
+  background: linear-gradient(to left,rgb(6, 6, 247), yellow);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+ }
+ .login:hover{
+  color: black;
+ }
